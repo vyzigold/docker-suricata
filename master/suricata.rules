@@ -1,0 +1,2 @@
+drop ip any any -> 10.1.2.12 any (msg: "that's me"; sid: 2000000;)
+drop ip any any -> 10.1.2.11 any (msg: "that's also me"; sid: 2000001;)
